@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    Window.counter = 0;
+    function increace(params) {
+      Window.counter += 1
+      var text = document.getElementById("counter");
+      text.textContent = Window.counter
+    }
+  </script>
+</head>
+
+<h1>HELLO WORLD</h1>
+<h2 id="counter">0</h2>
+
+<button onclick="increace('')">increace</button>
+
+</html>
